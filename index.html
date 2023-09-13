@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculator</title>
+  <link rel="stylesheet" href="calc2.css">
+</head>
+<body>
+    <h1>calculator App</h1>
+  <div class="calculator">
+    <div class="display">
+      <input id="display" type="text" placeholder="0">
+    </div>
+    <div class="buttons">
+      <button onclick="allClear()" type="button" class="operator">c</button>
+      <button onclick="displayData('-')" class="operator">-</button>
+      <button onclick="displayData('x')" class="operator">x</button>
+      <button onclick="displayData('/')" class="operator">/</button>
+      <button onclick="displayData(7)" class="number">7</button>
+      <button onclick="displayData(9)" class="number">8</button>
+      <button onclick="displayData(9)" class="number">9</button>
+      <button onclick="displayData('%')" class="operator">%</button>
+      <button onclick="displayData(4)" class="number">4</button>
+      <button onclick="displayData(5)" class="number">5</button>
+      <button onclick="displayData(6)" class="number">6</button>
+      <button onclick="displayData('.')" class="operator">.</button>
+      <button onclick="displayData(1)" class="number">1</button>
+      <button onclick="displayData(2)" class="number">2</button>
+      <button onclick="displayData(3)" class="number">3</button>
+      <button onclick="displayData('+')" class="operator">+</button>
+      <button onclick="displayData(0)" class="zero">0</button>
+      <button onclick="backspace()" class="number"><i class="fa-solid fa-delete-left" style="color: #000000;"></i></button>
+      <button onclick="submit()" type="button" class="number" id="calculate">=</button>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/0a5175c9b5.js" crossorigin="anonymous"></script>
+</html>

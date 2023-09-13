@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Julee&family=Kanit:wght@500&family=Kaushan+Script&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto&family=VT323&family=Ysabeau+Office&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Julee&family=Kanit:wght@500&family=Kaushan+Script&family=Lora&family=Montserrat:wght@600&family=Mulish:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto&family=VT323&family=Ysabeau+Office&display=swap');
 body {
     font-family: Arial, sans-serif;
     background-color: #00433e;
@@ -11,8 +11,7 @@ body {
     margin-top: 80px;
     text-align: center;
     letter-spacing: 1px;
-
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-weight: bolder;
     font-size: 40px;
@@ -64,11 +63,18 @@ body {
     transition: background-color 0.3s ease;
   }
   
-  button:hover {
-    background-color: #d0d0d0;
+  .operator:hover {
+    background-color: #fcad4c;
+  }
+  .number:hover{
+    background-color: #dddbdb ;
+  }
+  .zero:hover{
+    background-color: #dddbdb ;
   }
   
-  .equal {
+  .zero {
+    background-color: #f0f0f0;
     grid-column: span 2;
   }
   
@@ -82,7 +88,10 @@ body {
     background-color: #f0f0f0;
   }
   
-  #clear {
+  #calculate {
     background-color: #dc143c;
     color: #fff
-  }  
+  }
+ #calculate:hover{
+  background-color: #fa3f64;
+ }
